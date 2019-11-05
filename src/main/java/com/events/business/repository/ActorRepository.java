@@ -1,6 +1,6 @@
-package com.hackerrank.github.repository;
+package com.events.business.repository;
 
-import com.hackerrank.github.model.Actor;
+import com.events.business.model.Actor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

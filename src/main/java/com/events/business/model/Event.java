@@ -1,4 +1,4 @@
-package com.hackerrank.github.model;
+package com.events.business.model;
 
 import javax.persistence.*;
 import java.sql.Timestamp;

@@ -1,22 +1,22 @@
-package com.hackerrank.github.dto;
+package com.events.business.model;
 
-import com.hackerrank.github.model.Repo;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
-public class RepoDTO {
+@Entity
+public class Repo {
+    @Id
     private Long id;
     private String name;
     private String url;
 
-    public RepoDTO(){ }
+    public Repo() {
+    }
 
-    public RepoDTO(Long id, String name, String url) {
+    public Repo(Long id, String name, String url) {
         this.id = id;
         this.name = name;
         this.url = url;
-    }
-
-    public static RepoDTO _toConvertFromRepoEntity(Repo repo) {
-        return new RepoDTO(repo.getId(), repo.getName(), repo.getUrl());
     }
 
     public Long getId() {

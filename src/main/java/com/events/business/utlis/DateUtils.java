@@ -1,7 +1,7 @@
-package com.hackerrank.github.utlis;
+package com.events.business.utlis;
 
-import com.hackerrank.github.dto.EventDTO;
-import com.hackerrank.github.model.Event;
+import com.events.business.dto.EventDTO;
+import com.events.business.model.Event;
 import java.sql.Timestamp;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,11 +1,11 @@
-package com.hackerrank.github.services;
+package com.events.business.services;
 
-import com.hackerrank.github.dto.EventDTO;
-import com.hackerrank.github.model.Actor;
-import com.hackerrank.github.model.Event;
-import com.hackerrank.github.model.Repo;
-import com.hackerrank.github.repository.EventRepository;
-import com.hackerrank.github.utlis.DateUtils;
+import com.events.business.model.Actor;
+import com.events.business.repository.EventRepository;
+import com.events.business.utlis.DateUtils;
+import com.events.business.dto.EventDTO;
+import com.events.business.model.Event;
+import com.events.business.model.Repo;
 import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

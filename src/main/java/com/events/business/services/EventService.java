@@ -1,6 +1,6 @@
-package com.hackerrank.github.services;
+package com.events.business.services;
 
-import com.hackerrank.github.dto.EventDTO;
+import com.events.business.dto.EventDTO;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;

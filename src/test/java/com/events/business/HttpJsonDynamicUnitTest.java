@@ -1,4 +1,4 @@
-package com.hackerrank.github;
+package com.events.business;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;

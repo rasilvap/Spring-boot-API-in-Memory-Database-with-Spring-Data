@@ -1,8 +1,8 @@
-package com.hackerrank.github.services;
+package com.events.business.services;
 
-import com.hackerrank.github.dto.RepoDTO;
-import com.hackerrank.github.model.Repo;
-import com.hackerrank.github.repository.RepoRepository;
+import com.events.business.repository.RepoRepository;
+import com.events.business.dto.RepoDTO;
+import com.events.business.model.Repo;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 

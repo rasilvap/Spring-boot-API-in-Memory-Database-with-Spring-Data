@@ -1,9 +1,9 @@
-package com.hackerrank.github.controller;
+package com.events.business.controller;
 
-import com.hackerrank.github.dto.ActorDTO;
-import com.hackerrank.github.dto.EventDTO;
-import com.hackerrank.github.services.ActorService;
-import com.hackerrank.github.services.EventService;
+import com.events.business.dto.ActorDTO;
+import com.events.business.dto.EventDTO;
+import com.events.business.services.ActorService;
+import com.events.business.services.EventService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

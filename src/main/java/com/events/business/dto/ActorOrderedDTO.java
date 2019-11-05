@@ -1,6 +1,7 @@
-package com.hackerrank.github.dto;
+package com.events.business.dto;
 
-import com.hackerrank.github.model.Actor;
+import com.events.business.model.Actor;
+
 import java.sql.Timestamp;
 
 public class ActorOrderedDTO {

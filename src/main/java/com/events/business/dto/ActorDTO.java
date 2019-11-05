@@ -1,7 +1,7 @@
-package com.hackerrank.github.dto;
+package com.events.business.dto;
 
+import com.events.business.model.Actor;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.hackerrank.github.model.Actor;
 
 import java.io.Serializable;
 

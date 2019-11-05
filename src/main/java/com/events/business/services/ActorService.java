@@ -1,7 +1,7 @@
-package com.hackerrank.github.services;
+package com.events.business.services;
 
-import com.hackerrank.github.dto.ActorDTO;
-import com.hackerrank.github.model.Actor;
+import com.events.business.model.Actor;
+import com.events.business.dto.ActorDTO;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;

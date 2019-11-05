@@ -1,8 +1,8 @@
-package com.hackerrank.github.dto;
+package com.events.business.dto;
 
+import com.events.business.model.Event;
+import com.events.business.utlis.DateUtils;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.hackerrank.github.model.Event;
-import com.hackerrank.github.utlis.DateUtils;
 
 public class EventDTO {
 
