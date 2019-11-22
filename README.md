@@ -5,21 +5,26 @@ This is a standAlone builded with Spring boot using an in memory database h2 and
 The definitions and requirements are listed as follow:
 
 Each event data is a JSON entry with the following keys:
+
 • id: This is the event unique ID.
+
 • type: This is the event type.
-• actor: The actor responsible for the event. The actor itself is a
-JSON entry consisting of following fields:
+
+• actor: The actor responsible for the event. The actor itself is a JSON entry consisting of following fields:
+
 id: This is the actor unique ID.
 login: This is the actor unique login ID.
 avatar_url This is the actor avatar URL.
-•repo: The repository to which this event is associated with. The
-repo itself is a JSON entry consisting of following fields:
+
+•repo: The repository to which this event is associated with. The repo itself is a JSON entry consisting of following fields:
+
 id: This is the repo unique ID.
+
 name: This is the repo name.
+
 url: This is the repo URL.
-•created_at: This is the timestamp for the event creation given in
-the format yyyy-MM-dd HH:mm: ss. The timezone is UTC +0.
-To create new data you can use the post endpoint: localhost:8000/events, and use the next BodyRequest example:
+
+•created_at: This is the timestamp for the event creation given in the format yyyy-MM-dd HH:mm: ss. The timezone is UTC +0.
 
 The REST service should implement the following functionalities:
 
@@ -49,7 +54,7 @@ sorted by the maximum streak (i.e., the total number of consecutive days actor h
 by the GET request at /actors/streak. If there are more than one actors with the same maximum streak, then order them by the timestampof the latest event in the descending order. If more than one actors have the some timestamp for the latest event, then
 order them by the alphabetical order of login. The HTTP response code should be 200.
 
-To add new information you can use the next json example:
+To create new data you can use the post endpoint: localhost:8000/events, and use the next BodyRequest example:
 
 ```
 {
