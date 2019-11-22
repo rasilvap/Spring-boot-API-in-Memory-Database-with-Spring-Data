@@ -49,6 +49,8 @@ sorted by the maximum streak (i.e., the total number of consecutive days actor h
 by the GET request at /actors/streak. If there are more than one actors with the same maximum streak, then order them by the timestampof the latest event in the descending order. If more than one actors have the some timestamp for the latest event, then
 order them by the alphabetical order of login. The HTTP response code should be 200.
 
+To add new information you can use the next json example:
+
 ```
 {
     "id": "334",
