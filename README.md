@@ -2,6 +2,7 @@
 
 This is a h Spring boot Appusing an in memory database h2 and the spring-data library, there are a set of endpoints with different behaviors, the code base was built using java 8.
 
+
 The definitions and requirements are listed as follow:
 
 Each event data is a JSON entry with the following keys:
@@ -66,3 +67,7 @@ To create new data you can use the post endpoint: localhost:8000/events, and use
     "created_at":"2019-05-17 14:20:20"
 }
 ```
+
+## TO_DO
+
+Implement Swagger documentation in each Endpoint.
