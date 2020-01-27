@@ -1,6 +1,6 @@
 # Spring-boot-API-in-Memory-Database-with-Spring-Data
 
-This is a standAlone builded with Spring boot using an in memory database h2 and the spring-data library to manage the databse opertations.
+This is a h Spring boot Appusing an in memory database h2 and the spring-data library, there are a set of endpoints with different behaviors, the code base was built using java 8.
 
 The definitions and requirements are listed as follow:
 
