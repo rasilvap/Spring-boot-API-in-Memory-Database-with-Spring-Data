@@ -29,6 +29,7 @@ url: This is the repo URL.
 The REST service should implement the following functionalities:
 
 
+
 1.Erasing all the events: The service should be able to erase all the events by the DELETE request at /erase. The HTTP response code should be 200.
 
 2.Adding new events: The service should be able to add a new event by the POST request at /events. The event JSON is sent in the 
