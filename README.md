@@ -3,7 +3,6 @@
 This is a h Spring boot Appusing an in memory database h2 and the spring-data library, there are a set of endpoints with different behaviors, the code base was built using java 8.
 
 
-
 The definitions and requirements are listed as follow:
 
 Each event data is a JSON entry with the following keys:
