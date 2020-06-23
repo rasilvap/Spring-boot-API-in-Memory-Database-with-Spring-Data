@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/rasilvap/Spring-boot-API-in-Memory-Database-with-Spring-Data/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/rasilvap/magneto-challengue/actions)
+[![Actions Status](https://github.com/rasilvap/Spring-boot-API-in-Memory-Database-with-Spring-Data/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/rasilvap/Spring-boot-API-in-Memory-Database-with-Spring-Data/actions)
 
 # Spring-boot-API-in-Memory-Database-with-Spring-Data
 
