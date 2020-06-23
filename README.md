@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/rasilvap/Spring-boot-API-in-Memory-Database-with-Spring-Data/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/rasilvap/magneto-challengue/actions)
+
 # Spring-boot-API-in-Memory-Database-with-Spring-Data
 
 This is a h Spring boot Appusing an in memory database h2 and the spring-data library, there are a set of endpoints with different behaviors, the code base was built using java 8.
